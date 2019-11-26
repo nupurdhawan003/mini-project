@@ -1,0 +1,7 @@
+<?php
+   define('servername', 'localhost:80');
+   define('serverusername', 'ayushi');
+   define('serverpassword', 'ayushi');
+   define('dbname', 'tbuser');
+   $db = mysqli_connect(servername,serverusername,serverpassword,dbname);
+?>
